@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+*{
+    box-sizing: border-box;
+}
+.parent{
+    background-color: #32adc5;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    
+   
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+
+}
+.child{
+    
+    background-color: #ffffff;
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    margin: 5px;
+    
+}
+.fa-star{
+    color: green;
+    display: inline-block;
+}
+.One_top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+   
+    margin: 10px;
+
+}
+.One_middle{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 10px;
+
+
+}
+.One_end{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+p{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+
+.Two_top{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+   
+
+}
+.Two_middle{
+  display: flex;
+    justify-content: flex-start;
+    
+    margin: 10px;
+
+}
+.Two_end{
+    display: flex;
+    justify-content: space-between;
+}
+.Three_top{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+.Three_middle{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+
+}
+.Three_end{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
